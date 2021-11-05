@@ -9,6 +9,7 @@ export default function mountComponent(vm) {
     }
   
     // 实例化一个渲染 Watcher，当响应式数据更新时，这个更新函数会被执行
+    debugger
     new Watcher(updateComponent)
   }
   

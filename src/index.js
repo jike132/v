@@ -28,7 +28,7 @@ Vue.prototype._init = function (options) {
   this.__patch__ = patch
      // 如果存在 el 配置项，则调用 $mount 方法编译模版
      if (this.$options.el) {
-        this.$mount()
+        this.$mount() 
       }
   }
   
